@@ -1,0 +1,11 @@
+langgraph
+langchain_openai
+langgraph-checkpoint
+langgraph-sdk
+langchain-groq
+langchain-community
+langgraph-checkpoint-sqlite
+streamlit
+python-dotenv
+tavily-python
+pyyaml

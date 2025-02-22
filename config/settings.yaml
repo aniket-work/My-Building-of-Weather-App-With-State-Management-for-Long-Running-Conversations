@@ -1,0 +1,26 @@
+# Application Settings
+app:
+  title: "Weather App With State Management for Long Running Conversations"
+  description: "State Management for Long Running Conversations"
+  version: "1.0.0"
+
+# Model Configuration
+model:
+  name: "Llama-3.3-70b-Specdec"
+  provider: "groq"
+  system_prompt: "You are a smart research assistant. Use the search engine to look up information. You are allowed to make multiple calls (either together or in sequence). Only look up information when you are sure of what you want. If you need to look up some information before asking a follow-up question, you are allowed to do that!"
+
+# Database Configuration
+database:
+  type: "sqlite"
+  path: "data/checkpoints.sqlite"
+
+# UI Configuration
+ui:
+  theme:
+    primaryColor: "#1E88E5"
+    backgroundColor: "#FFFFFF"
+    secondaryBackgroundColor: "#F0F2F6"
+    textColor: "#262730"
+  max_messages: 50
+  default_location: "New York"

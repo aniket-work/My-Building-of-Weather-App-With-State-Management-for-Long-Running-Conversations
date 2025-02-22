@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "search": {
+      "name": "tavily_search_results_json",
+      "max_results": 2,
+      "description": "Search for up-to-date information on the web"
+    }
+  },
+  "models": {
+    "groq": {
+      "available_models": [
+        "Llama-3.3-70b-Specdec",
+        "llama3-8b-8192",
+        "llama3-70b-8192"
+      ]
+    }
+  },
+  "examples": [
+    "What's the weather in New York?",
+    "How does the weather in Miami compare to Chicago?",
+    "Will it rain in Seattle tomorrow?",
+    "What's the warmest city in the US right now?"
+  ]
+}
