@@ -26,7 +26,7 @@ This article walks through building an AI-powered security review system. I’ve
 
 These agents have a structured conversation, challenge each other’s perspectives, and ultimately produce a comprehensive security recommendation. The application then formats this into a downloadable report that summarizes their findings.
 
-Full Article : [https://medium.com/@learn-simplified/My-Building-of-Weather-App-With-State-Management-for-Long-Running-Conversations-6fd2e8be9056
+Full Article : [https://medium.com/@learn-simplified/weather-app-with-state-management-for-long-running-conversations-820a2c367fbd
 
 ## Tech Stack
 
